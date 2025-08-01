@@ -26,7 +26,7 @@ else:
     st.warning("Warning: Tesseract OCR not found at the specified path. Please install Tesseract OCR and update the path.")
 
 # Configure Google Gemini API
-GOOGLE_API_KEY = "AIzaSyCqPy8J7K3Orccta6-JSo16GqqeKoYMzaQ"
+GOOGLE_API_KEY = "API HERE"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
